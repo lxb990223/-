@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*header*/
+header {
+    width: 100%;
+    margin: 0 auto;
+    height: 100px;
+    box-shadow: 0px 3px 3px #888888;
+    margin-bottom: 1px
+}
+
+header .nav {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+
+header .nav img {
+    float: left;
+    display: block;
+    margin-top: 20px;
+}
+
+header ul {
+    width: 700px;
+    height: 100px;
+    line-height: 80px;
+    float: right;
+}
+
+header ul li {
+    float: left;
+    display: block;
+}
+
+header ul li a {
+    color: #333333;
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 8px;
+}
+
+header .dl {
+    float: right;
+    display: block;
+    width: 50px;
+    line-height: 30px;
+    margin-top: 34px;
+    background-color: #e5e7dc;
+    text-align: center;
+    border-radius: 5px;
+}
+
+header .dl a {
+    color: #333333;
+}
+
+header .dl a:hover {
+    color: silver
+}
+
+header ul li a:hover {
+    border-bottom: 2px solid #865eff;
+    color: black;
+}
+
+.banner img {
+    width: 100%;
+    margin: 3px auto;
+}
+
+.course-item .title {
+    font-size: 26px;
+    height: auto;
+    line-height: 37px;
+    color: #333;
+    font-family: 'ali-regular';
+    font-weight: bolder;
+    text-align: left;
+}
+
+.course-item .desc {
+    width: 100%;
+    /* height: 25px; */
+    line-height: 25px;
+    font-size: 18px;
+    /*font-family: 'ali-lighter';*/
+    color: #888;
+    text-align: left;
+    margin-top: 11px;
+    margin-bottom: 30px;
+}
+
+.course-item .detail {
+    width: 100%;
+    padding: 30px;
+    padding-top: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 5px;
+
+}
+
+.detail h3 {
+    margin: 22px 0 14px 0;
+    text-align: left;
+    font-size: 16px;
+    color: orange;
+    line-height: 22px;
+    font-family: 'ali-regular';
+    font-weight: bolder;
+}
+
+.detail h3 span {
+    padding-left: 20px;
+    color: #151515;
+}
+
+.detail .class-list {
+    border: 1px solid #e6e6e6;
+    border-right: none;
+    color: #666;
+}
+
+.class-list li:nth-child(2n) {
+    background-color: #ececec;
+}
+
+.class-list li:nth-child(2n+1) {
+    background-color: #f7f7f7;
+}
+
+.class-list li span {
+    display: inline-block;
+    width: 33%;
+    font-size: 12px;
+    text-align: left;
+    padding: 0 20px;
+    line-height: 40px;
+    box-sizing: border-box;
+    border-right: 1px solid #e6e6e6;
+}
+
+footer {
+    height: 60px;
+    background-color: #333333;
+}
+
+footer .container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+footer .container > p {
+    color: #fff;
+    float: left;
+    line-height: 60px;
+}
+
+footer .container > span {
+    float: right;
+    margin: 15px 40px;
+}
+
+footer .container > span img {
+    margin-left: 10px;
+}

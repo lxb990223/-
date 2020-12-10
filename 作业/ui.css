@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*header*/
+header {
+    width: 100%;
+    margin: 0 auto;
+    height: 100px;
+    box-shadow: 0px 1px 3px #888888;
+    margin-bottom: 1px
+}
+
+header .nav {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+
+header .nav img {
+    float: left;
+    display: block;
+    margin-top: 20px;
+}
+
+header ul {
+    width: 700px;
+    height: 100px;
+    line-height: 80px;
+    float: right;
+}
+
+header ul li {
+    float: left;
+    display: block;
+}
+
+header ul li a {
+    color: #333333;
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 8px;
+}
+
+header .dl {
+    float: right;
+    display: block;
+    width: 50px;
+    line-height: 30px;
+    margin-top: 34px;
+    background-color: #e5e7dc;
+    text-align: center;
+    border-radius: 5px;
+}
+
+header .dl a {
+    color: #333333;
+}
+
+header .dl a:hover {
+    color: silver
+}
+
+header ul li a:hover {
+    border-bottom: 2px solid #865eff;
+    color: black;
+}
+
+
+.banner {
+    width: 100%;
+    height: 1180px;
+}
+
+.banner img {
+    width: 100%;
+    margin: 3px auto;
+}
+
+.banner .ui_box p {
+    color: whitesmoke
+}
+
+.banner .ui_box .box1 {
+    text-align: center;
+    background-image: linear-gradient(109.6deg, rgba(5, 84, 94, 1) 16%, #bbb 91.1%);
+    margin-bottom: 3px;
+}
+
+.banner .ui_box .box2 {
+    text-align: center;
+    background-image: linear-gradient(109.6deg, rgba(121, 203, 202, 1) 11.2%, rgba(119, 161, 211, 1) 91.1%);
+    margin-bottom: 3px;
+}
+
+.banner .ui_box .box3 {
+    text-align: center;
+    background-image: linear-gradient(109.6deg, rgba(48, 207, 208, 1) 11.2%, rgba(51, 8, 103, 1) 92.5%);
+    margin-bottom: 3px;
+}
+
+.banner .ui_box .box4 {
+    text-align: center;
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(147, 230, 241, 1) 0%, rgba(145, 192, 241, 1) 45.5%);
+    margin-bottom: 3px;
+}
+
+
+footer {
+    height: 60px;
+    background-color: #333333;
+}
+
+footer .container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+footer .container > p {
+    color: #fff;
+    float: left;
+    line-height: 60px;
+}
+
+footer .container > span {
+    float: right;
+    margin: 15px 40px;
+}
+
+footer .container > span img {
+    margin-left: 10px;
+}

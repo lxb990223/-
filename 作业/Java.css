@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*header*/
+header {
+    width: 100%;
+    margin: 0 auto;
+    height: 100px;
+    box-shadow: 0px 3px 3px #888888;
+    margin-bottom: 1px
+}
+
+header .nav {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+
+header .nav img {
+    float: left;
+    display: block;
+    margin-top: 20px;
+}
+
+header ul {
+    width: 700px;
+    height: 100px;
+    line-height: 80px;
+    float: right;
+}
+
+header ul li {
+    float: left;
+    display: block;
+}
+
+header ul li a {
+    color: #333333;
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 8px;
+}
+
+header .dl {
+    float: right;
+    display: block;
+    width: 50px;
+    line-height: 30px;
+    margin-top: 34px;
+    background-color: #e5e7dc;
+    text-align: center;
+    border-radius: 5px;
+}
+
+header .dl a {
+    color: #333333;
+}
+
+header .dl a:hover {
+    color: silver
+}
+
+header ul li a:hover {
+    border-bottom: 2px solid #865eff;
+    color: black;
+}
+
+footer {
+    height: 60px;
+    background-color: #333333;
+}
+
+footer .container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+footer .container > p {
+    color: #fff;
+    float: left;
+    line-height: 60px;
+}
+
+footer .container > span {
+    float: right;
+    margin: 15px 40px;
+}
+
+footer .container > span img {
+    margin-left: 10px;
+}
+
+
+.banner {
+    height: 1000px;
+    background-color: whitesmoke
+}
+
+.banner img {
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+
+.banner .tjkc h1, h3 {
+    line-height: 50px;
+    text-align: center;
+}
+
+.tiyan .ty2 {
+    width: 1280px;
+    margin: 20px auto;
+}
+
+.banner .sf {
+    margin: 20px auto;
+    height: 200px;
+}
+
+.banner .sf ul {
+    overflow: hidden; /*background-color: #8dc1e7;*/
+}
+
+.banner .sf ul li {
+    float: right;
+}
+
+.banner .sf ul li img {
+    width: 350px;
+    height: 150px;
+    margin: 100px;
+    margin-left: 30px;
+}
+
+.banner .sf ul li:hover img {
+    color: #888888;
+    opacity: 0.5;
+}

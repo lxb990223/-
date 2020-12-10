@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*body{margin:0 auto;*/
+/*   background-image: url("footer/windows-10-logo-default-background-technology.png");*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: 100%;*/
+/*    opacity: 0.9;*/
+/*    filter:alpha(opacity=40);*/
+/*    height:100%;*/
+/*    width:100%;*/
+/*    z-index:0.1;*/
+/*}*/
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*header*/
+header {
+    width: 100%;
+    margin: 0 auto;
+    height: 100px;
+    box-shadow: 0px 1px 3px #888888;
+    margin-bottom: 1px
+}
+
+header .nav {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+
+header .nav img {
+    float: left;
+    display: block;
+    margin-top: 20px;
+}
+
+header ul {
+    width: 700px;
+    height: 100px;
+    line-height: 80px;
+    float: right;
+}
+
+header ul li {
+    float: left;
+    display: block;
+}
+
+header ul li a {
+    color: #333333;
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 8px;
+}
+
+header .dl {
+    float: right;
+    display: block;
+    width: 50px;
+    line-height: 30px;
+    margin-top: 34px;
+    background-color: #e5e7dc;
+    text-align: center;
+    border-radius: 5px;
+}
+
+header .dl a {
+    color: #333333;
+}
+
+header .dl a:hover {
+    color: silver
+}
+
+/*header ul .color1{background: #6c6b42;}*/
+/*header ul .color2{background: green;}*/
+/*header ul .color3{background: #6c6b42;}*/
+/*header ul .color4{background: green;}*/
+/*header ul .color5{background: #6c6b42;}*/
+header ul li a:hover {
+    border-bottom: 2px solid #865eff;
+    color: black;
+}
+
+/*banner*/
+.banner {
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 500px;
+    padding: 0;
+    position: relative;
+}
+
+.banner img {
+    /*margin: 20px 30px;*/
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    opacity: 0;
+    animation: move 12s infinite;
+}
+
+@keyframes move {
+    0% {
+        opacity: 0
+    }
+    2% {
+        opacity: 1
+    }
+    24% {
+        opacity: 1
+    }
+    25% {
+        opacity: 0
+    }
+}
+
+img:nth-child(0) {
+    animation-delay: 0s
+}
+
+img:nth-child(1) {
+    animation-delay: 3s
+}
+
+img:nth-child(2) {
+    animation-delay: 6s
+}
+
+img:nth-child(3) {
+    animation-delay: 9s
+}
+
+/*main*/
+.main {
+    box-shadow: 0px 1px 3px #888888;
+}
+
+/*background-image: url("footer/windows-10-logo-default-background-technology.png");*/
+/*   background-repeat: no-repeat;*/
+/* background-size: 100%;*/
+/*   opacity: 0.5;*/
+/*bufanyoushi*/
+.main .super {
+    display: block;
+    width: 100%;
+    height: 230px;
+}
+
+.main .super .cname {
+    font-size: 30px;
+    margin-left: 20px
+}
+
+.main .super .ename {
+    font-size: 16px;
+    font-family: "仿宋";
+    font-weight: bolder;
+    margin-left: 5px;
+}
+
+.main .super_ul li img {
+    width: 300px;
+    height: 150px;
+}
+
+.main .super_ul {
+    height: 170px;
+    float: right;
+    width: 100%;
+}
+
+.main .super_ul li {
+    float: left;
+    margin: 0 auto;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.main .super_ul li img:hover {
+    box-shadow: 0 2px 3px #888888;
+}
+
+/*kechnegjieshao*/
+.main .course {
+    display: block;
+    width: 100%;
+    height: 470px;
+    margin: 0 auto;
+}
+
+.main .course .cname {
+    font-size: 30px;
+    margin-left: 20px
+}
+
+.main .course .ename {
+    font-size: 16px;
+    font-family: "仿宋";
+    font-weight: bolder;
+    margin-left: 5px;
+}
+
+.main .sourse_ul {
+    height: 170px;
+    float: right;
+    width: 100%;
+}
+
+.main .sourse_ul li {
+    margin: 20px
+}
+
+.main .course .yb {
+    float: right;
+    margin-right: 30px;
+    margin-top: -400px;
+    padding: 10px;
+    width: 800px;
+    font-weight: bolder;
+    color: #333333;
+    line-height: 60px;
+}
+
+
+/*bufanshuo*/
+.main .talk {
+    display: block;
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.main .talk .cname {
+    font-size: 30px;
+    margin-left: 20px
+}
+
+.main .talk .ename {
+    font-size: 16px;
+    font-family: "仿宋";
+    font-weight: bolder;
+    margin-left: 5px;
+}
+
+.main .talk_ul li img {
+    width: 300px;
+    height: 150px;
+}
+
+.main .talk_ul {
+    float: right;
+    width: 100%;
+}
+
+.main .talk_ul li {
+    float: left;
+    margin: 0 auto;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.main .talk_ul li img:hover {
+    box-shadow: 0 5px 5px #888888;
+}
+
+.main .talk_ul p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: bolder;
+    color: #333333;
+}
+
+/*footer*/
+footer {
+    height: 60px;
+    background-color: #333333;
+}
+
+footer .container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+footer .container > p {
+    color: #fff;
+    float: left;
+    line-height: 60px;
+}
+
+footer .container > span {
+    float: right;
+    margin: 15px 40px;
+}
+
+footer .container > span img {
+    margin-left: 10px;
+}
